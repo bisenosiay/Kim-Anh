@@ -1,0 +1,333 @@
+.__img {
+    position: absolute;
+    z-index: 1000;
+    img {
+        object-fit: cover;
+    }
+    &_image {
+        object-fit: cover;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+            1px 1px 15px rgba(233, 30, 99, 0.6);
+    }
+}
+.__img_1 {
+    right: 5%;
+    top: 8%;
+    img {
+        width: 180px;
+        height: 250px;
+        border-radius: 10%;
+        animation: zoomOut 3s 1 both;
+    }
+}
+
+.__img_2 {
+    // left: 3%;
+    position: relative;
+    // top: calc(calc(100% - 700px) / 2);
+    img {
+        width: 280px;
+        height: 430px;
+        border-radius: 15px;
+        animation: zoomOut1 1.5s 1 both;
+    }
+}
+
+.__img_3 {
+    top: 5%;
+    left: 4%;
+    animation: zoomOut2 2s 1 both;
+    img {
+        width: 200px;
+        height: 300px;
+        border-radius: 10%;
+        animation: zoomOut2 2s 1 both;
+    }
+}
+
+.__img_4 {
+    right: 7%;
+    animation: zoomOut3 2s 1 both;
+    img {
+        width: 180px;
+        height: 250px;
+        border-radius: 10%;
+        animation: zoomOut3 2s 1 both;
+    }
+}
+
+.__img_5 {
+    bottom: 7%;
+    left: 7%;
+    animation: zoomOut2 2s 1 both;
+    img {
+        width: 200px;
+        height: 280px;
+        border-radius: 10%;
+        animation: zoomOut 2s 1 both;
+    }
+}
+
+.__love_you {
+    position: absolute;
+    margin: 0 auto;
+    &::before,
+    &::after {
+        position: absolute;
+        content: "";
+        background-image: linear-gradient(
+            to bottom right,
+            rgb(251, 88, 88),
+            rgb(251, 88, 88)
+        );
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+    }
+    &:after {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transform-origin: 100% 100%;
+        -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+        -o-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+}
+
+.__love_you_tiny {
+    width: 10px;
+    height: 9px;
+    &::before,
+    &::after {
+        left: 5px;
+        top: 0;
+        width: 5px;
+        height: 8px;
+        -moz-border-radius: 5px 5px 0 0;
+        border-radius: 5px 5px 0 0;
+    }
+    &::after {
+        left: 0;
+    }
+}
+.__love_you_small {
+    width: 20px;
+    height: 18px;
+    &::before,
+    &::after {
+        left: 10px;
+        top: 0;
+        width: 10px;
+        height: 16px;
+        -moz-border-radius: 10px 10px 0 0;
+        border-radius: 10px 10px 0 0;
+    }
+    &::after {
+        left: 0;
+    }
+}
+.__love_you_medium {
+    width: 26px;
+    height: 23px;
+    &::before,
+    &::after {
+        left: 13px;
+        top: 0;
+        width: 13px;
+        height: 21px;
+        -moz-border-radius: 13px 13px 0 0;
+        border-radius: 13px 13px 0 0;
+    }
+    &::after {
+        left: 0;
+    }
+}
+.__love_you_larger {
+    width: 32px;
+    height: 29px;
+    &::before,
+    &::after {
+        left: 16px;
+        top: 0;
+        width: 16px;
+        height: 27px;
+        -moz-border-radius: 16px 16px 0 0;
+        border-radius: 16px 16px 0 0;
+    }
+    &::after {
+        left: 0;
+    }
+}
+
+.__pos_ani_0 {
+    transform: rotate(-20deg);
+}
+
+.__pos_ani_1 {
+    animation-delay: 0.75s;
+    transform: rotate(30deg);
+}
+.__pos_ani_2 {
+    animation-delay: 2s;
+    transform: rotate(0deg);
+}
+.__pos_ani_3 {
+    animation-delay: 3s;
+    transform: rotate(-20deg);
+}
+.__pos_ani_4 {
+    animation-delay: 4s;
+    transform: rotate(-20deg);
+}
+
+.__left_1 {
+    left: 8%;
+    animation: heartFly 3s infinite both;
+}
+
+.__left_2 {
+    left: 0%;
+    animation: heartFly 2.5s infinite both;
+}
+.__left_3 {
+    left: 16%;
+    animation: heartFly 3.5s infinite both;
+}
+
+.__right_1 {
+    right: 8%;
+    animation: heartFly 4s infinite both;
+}
+
+.__right_2 {
+    right: 0%;
+    animation: heartFly 3.5s infinite both;
+}
+.__right_3 {
+    right: 16%;
+    animation: heartFly 2.5s infinite both;
+}
+
+.__mid_1 {
+    left: 30%;
+    animation: heartFly1 5s infinite both;
+}
+
+.__mid_2 {
+    left: 40%;
+    animation: heartFly1 2.5s infinite both;
+}
+.__mid_3 {
+    left: 50%;
+    animation: heartFly1 5s infinite both;
+}
+
+.__mid_4 {
+    left: 60%;
+    animation: heartFly1 4s infinite both;
+}
+
+.__mid_5 {
+    left: 70%;
+    animation: heartFly1 3.5s infinite both;
+}
+
+.__love_you_text {
+    // position: absolute;
+    // left: 50%;
+    // bottom: 5%;
+    // transform: translate(-50%, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .__love_you_span {
+        width: 80px;
+        font-size: 1.75rem;
+        font-weight: 600;
+        color: black;
+        text-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+            1px 1px 15px rgba(233, 30, 99, 0.6);
+        animation: zoomOut1 1.5s 1 both;
+        display: flex;
+        justify-content: center;
+    }
+    .__love_you_span:nth-child(1) {
+        font-size: 2.5rem;
+        padding-left: 30px;
+        width: 40px;
+    }
+    .__love_you_span:nth-child(2) {
+        animation: zoomOut1 1.5s 1 both;
+    }
+}
+
+.__name {
+    margin-top: 20px;
+    font-size: 1.75rem;
+    color: white;
+    // margin-top: calc(100% / 2 - 5rem);
+    font-weight: 900;
+}
+
+@media screen and (max-width: 550px) {
+    .__name {
+        font-size: 1.25rem;
+        font-weight: 900;
+    }
+    .__img_1 {
+        right: 5%;
+        top: 4%;
+        img {
+            width: 150px;
+            height: 200px;
+        }
+    }
+    .__img_2 {
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .__img_5 {
+        left: 6%;
+        top: 68%;
+        img {
+            width: 150px;
+            height: 200px;
+        }
+    }
+
+    .__img_4 {
+        right: 6%;
+        top: 68%;
+        img {
+            width: 150px;
+            height: 180px;
+        }
+    }
+    .__img_3 {
+        left: 6%;
+        top: 5%;
+        img {
+            width: 150px;
+            height: 200px;
+        }
+    }
+    .__love_you_text {
+        bottom: 8%;
+    }
+    .__heart {
+        margin: 0;
+    }
+}

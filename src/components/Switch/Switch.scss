@@ -1,0 +1,61 @@
+.__heart_switch {
+    --duration: 0.45s;
+    --stroke: #d1d6ee;
+    --stroke-active: #ee1967;
+    --fill: #fff;
+    --fill-active: #fc5894;
+    --shadow: #{rgba(#00093d, 0.25)};
+    cursor: pointer;
+    position: absolute;
+    top: 48.5%;
+    left: calc(calc(100% - 85px) / 2);
+    z-index: 2;
+    // animation: switch-close 3s 1 both;
+    transform: scale(var(--s, 1)) translateZ(0);
+    transition: transform 0.2s;
+    -webkit-tap-highlight-color: transparent;
+    &:active {
+        --s: 0.95;
+    }
+    input {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        position: absolute;
+        outline: none;
+        border: none;
+        pointer-events: none;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+        left: 11px;
+        top: 4px;
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0 1px 3px 0 var(--shadow);
+        & + svg {
+            width: 85px; //36
+            height: 50px; //25
+            fill: var(--fill);
+            stroke: var(--stroke);
+            stroke-width: 1px;
+            stroke-linejoin: round;
+            display: block;
+            transition: stroke var(--duration), fill var(--duration);
+        }
+        &:not(:checked) {
+            animation: uncheck var(--duration) linear forwards;
+        }
+        &:checked {
+            animation: check var(--duration) linear forwards;
+            & + svg {
+                --fill: var(--fill-active);
+                --stroke: var(--stroke-active);
+            }
+        }
+    }
+}
+// .__heart_switch_animation {
+//     animation: switch-move 3s 1 both;
+// }

@@ -1,0 +1,65 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    .App {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        // background-color: rgba(251, 137, 137, 0.5);
+        background-image: url("../img/back.jpeg");
+        background-repeat: round;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .__arrow_button {
+        display: flex;
+        z-index: 2;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        img {
+            width: 130px;
+            height: 150px;
+        }
+        span {
+            font-weight: 800;
+            font-size: 1.75rem;
+            color: rgb(255, 5, 105);
+        }
+    }
+    .__mail {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 60px;
+        animation: zoomOut4 0.5s infinite both;
+        z-index: 2000;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .__back {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 60px;
+        z-index: 2000;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .__page {
+        z-index: 2000;
+    }
+}
+@media screen and (max-width: 550px) {
+    body {
+        width: 100%;
+    }
+}
