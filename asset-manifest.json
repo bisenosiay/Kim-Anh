@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Thanh-Thu/static/css/main.034d76c7.css",
+    "main.js": "/Thanh-Thu/static/js/main.703f7e68.js",
+    "static/media/q2.jpg": "/Thanh-Thu/static/media/q2.59cbb96885920c68884b.jpg",
+    "static/media/q5.jpg": "/Thanh-Thu/static/media/q5.e3d5c94fec1d0ecbd27d.jpg",
+    "static/media/q3.jpg": "/Thanh-Thu/static/media/q3.63396ad62030efa1c940.jpg",
+    "static/media/bg.jpg": "/Thanh-Thu/static/media/bg.8a3b6368b121cc22920a.jpg",
+    "static/media/q1.jpg": "/Thanh-Thu/static/media/q1.5ba77848e1edcbd55630.jpg",
+    "static/media/back.jpeg": "/Thanh-Thu/static/media/back.2a2f7c18b2cc3a31b817.jpeg",
+    "static/media/back.png": "/Thanh-Thu/static/media/back.11f9291468f29cc37cf0.png",
+    "static/media/mail.png": "/Thanh-Thu/static/media/mail.9cc869e65b36ccc7dc57.png",
+    "index.html": "/Thanh-Thu/index.html",
+    "main.034d76c7.css.map": "/Thanh-Thu/static/css/main.034d76c7.css.map",
+    "main.703f7e68.js.map": "/Thanh-Thu/static/js/main.703f7e68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.034d76c7.css",
+    "static/js/main.703f7e68.js"
+  ]
+}
