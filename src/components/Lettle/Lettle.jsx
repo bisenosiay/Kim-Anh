@@ -18,7 +18,7 @@ function Lettle(props) {
                         <div className="__love_you_text">
                             <span className="__love_you_span">𝕴</span>
                             <Heart color="red" />
-                            <span className="__love_you_span">𝓢𝓗𝓤</span>
+                            <span className="__love_you_span">𝓐𝓷𝓱</span>
                         </div>
                         <span className="__sign">𝕹</span>
                     </div>

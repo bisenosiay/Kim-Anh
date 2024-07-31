@@ -31,7 +31,7 @@ function App() {
             {!_openNoti && (
                 <div className="__img __img_2">
                     <img
-                        alt="anh T"
+                        alt="anh A"
                         src={require("./img/q2.jpg")}
                         className="__img_image"
                     />
