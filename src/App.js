@@ -61,7 +61,7 @@ function App() {
                 </div>
             )}
 
-            {!_openNoti && <div className="__name">༺🍃☞ 𝓣𝓱𝓪𝓷𝓱 𝓣𝓱ư ☪ツ</div>}
+            {!_openNoti && <div className="__name">༺🍃☞ 𝓚𝓲𝓶 𝓐𝓷𝓱 ☪ツ</div>}
             <ImageHeart />
 
             {_open && (
